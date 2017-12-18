@@ -1,17 +1,16 @@
-import React from 'react';
+import React  from 'react';
 
+import Home from './containers/home.jsx'
+import Projects from './containers/projects.jsx'
+import Contact from './containers/contact.jsx'
 
-class App extends Component {
+class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <Home />
+      <Projects />
+      <Contact />
       </div>
     );
   }
