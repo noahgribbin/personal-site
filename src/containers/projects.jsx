@@ -1,8 +1,8 @@
 'use strict';
 
 import React from 'react';
-import portfolioData from '../data/portfolioData.json'
-import PortfolioItem from '../components/portfolio/portfolioItem.jsx'
+import projectData from '../data/projectData.json'
+import ProjectItem from '../components/project/projectItem.jsx'
 
 export default class  Projects extends React.Component {
   constructor(props){
@@ -13,17 +13,19 @@ export default class  Projects extends React.Component {
   }
 
   render(){
-    var project = portfolioData.map(function(item){
+    var project = projectData.map(function(item){
       console.log(item);
       return(
-        <PortfolioItem
+        <ProjectItem
           key = {item.key}
           project = {item}
         />
       )
     })
     return(
-      <section>
+      <section id="projects"
+               className="container">
+        <h3 className="project-section-title">My Work</h3>       
         {project}
       </section>
     )

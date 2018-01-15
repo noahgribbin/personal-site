@@ -1,0 +1,28 @@
+#home{
+  // min-height: calc(100vh - 4rem);
+  min-height: 90vh;
+  // margin-top: -4rem;
+  position: relative;
+  background: url('https://jonny.me/2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home-header{
+  position: absolute;
+  width: 90%;
+  left: 5%;
+  top: 30%;
+  text-align: center;
+  color: $light;
+}
+
+.hero-title{
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.hero-button{
+  font-weight: lighter;
+  margin-top: 4rem;
+}

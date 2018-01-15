@@ -1,0 +1,21 @@
+@import "./base/_base.scss";
+@import "./base/_reset.scss";
+
+@import "./components/nav/_navbar.scss";
+
+@import "./components/project/_projectContent.scss";
+@import "./components/project/_projectImage.scss";
+
+@import "./components/contact/_contactPreview.scss";
+@import "./components/contact/_contactContent.scss";
+
+@import "./components/_footer.scss";
+
+@import "./containers/_contact.scss";
+@import "./containers/_home.scss";
+@import "./containers/_projects.scss";
+
+
+
+
+//TODO width overflow bug occurs around 335px

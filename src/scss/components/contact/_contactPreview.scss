@@ -1,0 +1,64 @@
+.contact-preview{
+  height: 100%;
+  background: $color;
+  overflow-x: hidden;
+  // position: relative;
+}
+.contact-preview-content{
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: $light;
+}
+.contact-button{
+  width: 160px;
+  height: 50px;
+}
+.contact-button:hover{
+  color: #61cdf5;
+  border: 1px solid $dark;
+  background: $dark;
+}
+.contact-preview-title{
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: lighter;
+}
+.contact-preview-paragraph{
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+.contact-cover{
+  // display: inline-block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  // background: $dark;
+  background: $dark;
+  opacity: 0;
+  z-index: -1;
+  transition: 400ms;
+  transform-origin: (50%, 50%);
+  // overflow: hidden;
+  border-radius: 50px;
+}
+.open-cover{
+  position: absolute;
+  transform: scale(30);
+  transition: 1000ms;
+  opacity: 1;
+  z-index: 0;
+  // width: 100vw;
+  // height: 100vh;
+
+}
+.stop-scroll{
+}
