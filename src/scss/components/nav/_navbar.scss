@@ -11,20 +11,25 @@
 }
 
 .show{
-  opacity: 1;
+  transition: 400ms;
+  display: block;
+  // opacity: 1;
 }
 .hide{
-  opacity: 0;
+  transition: 400ms;
+  display: none;
+  // opacity: 0;
 }
 
 .nav-title-container{
   height: 100%;
+  box-sizing: border-box;
   display: inline-block;
   float: left;
   padding-left: 1rem;
   .nav-title{
-  height: 50%;
-  line-height: 2rem;
+  height: 100%;
+  line-height: 4rem;
   }
   .nav-subtitle{
 
@@ -37,7 +42,10 @@
   width: 50%;
   height: 100%;
   ul{
+    height: 100%;
     .nav-links{
+      height: 100%;
+      line-height: 4rem;
       width: 33.333%;
       font-size: .75rem;
       display: inline-block;

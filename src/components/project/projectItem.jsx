@@ -16,11 +16,12 @@ export default class projectItem extends React.Component {
   render(){
     return(
       <section className="project-item">
-        <ProjectImage
-          project={this.props.project}/>
-        <ProjectContent
-          project={this.props.project}/>
-
+        <div className="project-item-center-container">            
+          <ProjectImage
+            project={this.props.project}/>
+          <ProjectContent
+            project={this.props.project}/>
+        </div>
       </section>
     )
   }

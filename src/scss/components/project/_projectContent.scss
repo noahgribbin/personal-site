@@ -1,3 +1,12 @@
+.project-content{
+  @include for-tablet-landscape-up{
+    display: inline-block;
+    max-width: 40%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+  };
+}
 .project-title{
   text-align: center;
   margin-bottom:1rem;
@@ -28,12 +37,11 @@
   border: 1px solid $color;
   color: darken($dark, 10%);
   color: $dark;
-  border-radius: 50px;
   height: 40px;
 }
 .project-button-link:hover{
-  border: none;
+  // border: none;
   width: 55%;
-  background: darken($dark, 10%);
+  // background: darken($dark, 10%);
 
 }

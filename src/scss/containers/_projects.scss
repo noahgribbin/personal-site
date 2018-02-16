@@ -6,6 +6,13 @@
   min-height: 100vh;
   margin: 0rem auto;
   position: relative;
+  @include for-tablet-landscape-up{
+    min-height: 80vh;
+  };
+}
+.project-item:last-child{
+  // padding-bottom: 10vh;
+  height: calc(100% - 10vh)
 }
 .project-item::after{
   content: '';
@@ -18,6 +25,14 @@
   margin-left: auto;
   margin-right: auto;
   background: lighten($dark, 20%);
+}
+.project-item:last-child:after{
+  content: none;
+}
+.project-item-center-container{
+  position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
 }
 .project-section-title{
   text-align: center;

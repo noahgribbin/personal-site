@@ -1,12 +1,18 @@
 .project-frames-container{
   height: 50%;
   position: relative;
+  @include for-tablet-landscape-up{
+    display: inline-block;
+    max-width: 60%;
+  };
 }
 .project-frame{
   max-width: 90%;
-  // max-width: 90%;
   margin: auto;
   display: block;
+  @include for-tablet-portrait-up{
+    width: 65%;
+  };
 }
 .project-mobile-frame{
 

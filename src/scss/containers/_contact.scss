@@ -1,6 +1,9 @@
 #contact{
-  height: 70vh;
-  background: #eee;
+  height: 75vh;
+  background: $dark;
+  color: $light;
   position: relative;
-  overflow-x: hidden; 
+  overflow-x: hidden;
+  // font-family: 'Arimo', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }

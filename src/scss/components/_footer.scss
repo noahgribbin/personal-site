@@ -1,7 +1,7 @@
 .footer{
-  height: 20vh;
+  height: 15vh;
   width: 100%;
-  background: $dark;
+  background: #eee;
   // position: absolute;
   // bottom: 0;
 }
@@ -20,7 +20,7 @@
 .social-link{
   // font-size: 2rem;
   width: 50px;
-  color: $light;
+  color: $dark;
   text-decoration: none;
 }
 .social-link:visited{
@@ -28,7 +28,7 @@
 }
 
 .copyright{
-  color: $light;
+  color: $dark;
   margin-top: .5rem;
   font-weight: lighter;
 }

@@ -3,8 +3,10 @@ $dark: #555555;
 $color: #61cdf5;
 
 html{
-font-family: 'Roboto', sans-serif;
+  // font-family: 'Merriweather', serif;
+// font-family: 'Roboto', sans-serif;
 font-family: 'Raleway', sans-serif;
+
 }
 
 button{
@@ -16,11 +18,13 @@ button{
   width: 100px;
   height: 50px;
   transition: 300ms;
-  border-radius: 50px;
+  // border-radius: 50px;
 
 }
 button:hover{
-  color: $color;
+  background: $color;
+  // background-color: $light;
+  color: $light;
   border: 1px solid $color;
   transition: 300ms;
 }

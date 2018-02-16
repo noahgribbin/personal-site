@@ -21,8 +21,8 @@ export default class projectImage extends React.Component {
       <section className="project-frames-container">
         <img className="project-frame "
              src={this.props.project.pic}
-             alt={this.props.project.title} frame></img>
-        {/* {mobilePic} */}
+             alt={this.props.project.title} ></img>
+        {mobilePic}
       </section>
     )
   }

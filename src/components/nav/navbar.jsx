@@ -2,7 +2,7 @@
 
 import React from 'react';
 import $ from 'jquery'
-// import scrollTo from 'jquery.scrollTo'
+
 export default class Navbar extends React.Component {
   constructor(props){
     super(props)
@@ -31,36 +31,17 @@ export default class Navbar extends React.Component {
   };
 
   showHideNav(){
-
-
     $(window).bind('mousewheel', function(event) {
-    if (event.originalEvent.wheelDelta >= 0) {
-        // up
-        $('nav.navbar').removeClass('hide')
-        $('nav.navbar').addClass('show')
-    }
-    else {
-        //down
-        $('nav.navbar').removeClass('show')
-        $('nav.navbar').addClass('hide')
-    }
-});
-
-    // var that = this;
-    // $(window).scroll(function(){
-    //   var scroll = $(window).scrollTop()
-    //   console.log('position', that.state.position);
-    //   console.log('scroll', scroll);
-    //    if(that.state.position < scroll){
-    //     // down
-    //     // console.log('down');
-    //   }else{
-    //
-    //     // up
-    //     // console.log('up');
-    //     }
-    //   that.setState({ position: scroll})
-    // })
+      if (event.originalEvent.wheelDelta >= 0) {
+          // up
+          $('nav.navbar').removeClass('hide')
+          $('nav.navbar').addClass('show')
+      }else {
+          //down
+          $('nav.navbar').removeClass('show')
+          $('nav.navbar').addClass('hide')
+      }
+    });
   }
 
 
@@ -71,7 +52,7 @@ export default class Navbar extends React.Component {
         <nav className="navbar">
           <div className="nav-title-container">
             <p className ="nav-title">Noah Gribbin</p>
-            <p className ="nav-title nav-subtitle">Front End Developer</p>
+            {/* <p className ="nav-title nav-subtitle">Front End Developer</p> */}
           </div>
           <div className="nav-link-container">
             <ul>
