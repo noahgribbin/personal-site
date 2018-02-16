@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import $ from 'jquery'
+import $ from 'jquery';
 
 export default class Navbar extends React.Component {
   constructor(props){
