@@ -22,7 +22,7 @@ export default class projectImage extends React.Component {
         <img className="project-frame "
              src={this.props.project.pic}
              alt={this.props.project.title} ></img>
-        {mobilePic}
+        {/* {mobilePic} */}
       </section>
     )
   }
