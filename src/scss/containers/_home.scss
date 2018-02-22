@@ -13,9 +13,12 @@
   position: absolute;
   width: 90%;
   left: 5%;
-  top: 30%;
-  text-align: center;
   color: $light;
+  // top: 30%;
+  // position: absolute;
+  top: 50%;
+  transform: translate(0%, -50%);
+  text-align: center;
 }
 
 .hero-title{

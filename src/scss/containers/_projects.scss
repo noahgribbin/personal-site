@@ -3,23 +3,24 @@
 }
 .project-item{
   width: 85%;
-  min-height: 100vh;
+  // min-height: 100vh;
   margin: 0rem auto;
   position: relative;
+  padding-bottom: 1rem;
   @include for-tablet-landscape-up{
-    min-height: 80vh;
+    // min-height: 80vh;
   };
 }
 .project-item:last-child{
   // padding-bottom: 10vh;
-  height: calc(100% - 10vh)
+  // height: calc(100% - 10vh)
 }
 .project-item::after{
   content: '';
-  height: .5px;
+  height: 1px;
   width: 100%;
   display: block;
-  bottom: 1px;
+  bottom: 0px;
   position: absolute;
   // margin-top: 3rem;
   margin-left: auto;
@@ -30,9 +31,9 @@
   content: none;
 }
 .project-item-center-container{
-  position: absolute;
-  top: 50%;
-  transform: translate(0%, -50%);
+  // position: absolute;
+  // top: 50%;
+  // transform: translate(0%, -50%);
 }
 .project-section-title{
   text-align: center;
