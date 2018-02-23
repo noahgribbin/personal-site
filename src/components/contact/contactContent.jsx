@@ -1,4 +1,4 @@
-'';
+
 
 import React from 'react';
 // import $ from 'jquery';
@@ -35,11 +35,11 @@ export default class contactContent extends React.Component {
       console.log('no data');
       return
     }
-    // request.post('http://localhost:4000/send-email')
-    // .send(this.state)
-    // .end((err, res) => {
-    //   if(err) console.error(err);
-    // })
+    request.post('http://noahagribbin.herokuapp:4000/send-email')
+    .send(this.state)
+    .end((err, res) => {
+      if(err) console.error(err);
+    })
     document.getElementById('email-form').reset()
     this.setState(initialState)
   }
