@@ -1,4 +1,4 @@
-'use strict';
+'';
 
 import React from 'react';
 
@@ -17,7 +17,7 @@ export default class projectContent extends React.Component {
           <h3 className="project-title">{this.props.project.title}</h3>
           <p className="project-tags">{this.props.project.technologies}</p>
           <p className="project-description">{this.props.project.body}</p>
-          <button className="project-button-link">VISIT WEBSITE</button>
+          <a href={this.props.project.url} className="project-button-link">VISIT WEBSITE</a>
         </section>
     )
   }

@@ -1,4 +1,4 @@
-'use strict';
+'';
 
 import React from 'react';
 import $ from 'jquery';
@@ -24,8 +24,9 @@ export default class  Home extends React.Component {
       <section id="home"
                className="container">
         <header className="home-header">
-          <h1 className="hero-title">Front End Developer</h1>
-          <p>Based out of Seattle, WA. Specializing in responsive web design.</p>
+          <h1 className="hero-title">Noah Gribbin</h1>
+          <h3 className="hero-title hero-subtitle">Front End Developer</h3>
+          <h3 className="hero-title hero-subtitle">Based out of Seattle, WA. Specializing in responsive web design.</h3>
           <button className="hero-button"
                   name="projects"
                   onClick={this.scrollToSection}>My Work</button>

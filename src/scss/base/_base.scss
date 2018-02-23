@@ -8,6 +8,16 @@ html{
 font-family: 'Raleway', sans-serif;
 
 }
+a{
+  text-decoration: none;
+  transition: 300ms;
+}
+a:hover{
+  background: $color;
+  // background-color: $light;
+  color: $light;
+  border: 1px solid $color;
+}
 
 button{
   cursor: pointer;
