@@ -56,7 +56,7 @@
     "start2": "node src/server.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
-    "postinstall" : "node src/server.js"
+    "postinstall" : "node script/build.js"
   },
   "jest": {
     "collectCoverageFrom": [
