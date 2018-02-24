@@ -35,7 +35,7 @@ export default class contactContent extends React.Component {
       console.log('no data');
       return
     }
-    request.post('http://noahagribbin.herokuapp:4000/send-email')
+    request.post('https://noahagribbin.herokuapp:4000/send-email')
     .send(this.state)
     .end((err, res) => {
       if(err) console.error(err);
