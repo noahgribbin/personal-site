@@ -5,7 +5,7 @@ const path = require('path');
 const cors = require('cors');
 const nodeMailer = require('nodemailer');
 const bodyParser = require('body-parser').json();
-var PORT = 4000;
+var PORT = process.env.PORT;
 require('dotenv').config({path: `${__dirname}/.env`});
 module.exports = {};
 app.use(bodyParser)
