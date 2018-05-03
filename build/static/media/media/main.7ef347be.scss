@@ -1,0 +1,35 @@
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}
+
+@import "./base/_base.scss";
+@import "./base/_reset.scss";
+
+@import "./components/nav/_navbar.scss";
+
+@import "./components/project/_projectContent.scss";
+@import "./components/project/_projectImage.scss";
+
+@import "./components/contact/_contactContent.scss";
+
+@import "./components/_footer.scss";
+
+@import "./containers/_contact.scss";
+@import "./containers/_home.scss";
+@import "./containers/_projects.scss";
+
+
+
+//TODO width overflow bug occurs around 335px

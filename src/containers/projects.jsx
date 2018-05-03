@@ -14,7 +14,6 @@ export default class  Projects extends React.Component {
 
   render(){
     var project = projectData.map(function(item){
-      console.log(item);
       return(
         <ProjectItem
           key = {item.key}
@@ -25,7 +24,7 @@ export default class  Projects extends React.Component {
     return(
       <section id="projects"
                className="container">
-        <h3 className="project-section-title">My Work</h3>       
+        <h3 className="project-section-title">My Work</h3>
         {project}
       </section>
     )

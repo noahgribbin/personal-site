@@ -1,7 +1,7 @@
 [
   {
     "title":"Dungeon Manager",
-    "pic":"https://mockuphone.com/upload/d954b36f0c761c7edbaec535726eaa2a/macbookpro15/macbookpro15_front.png",
+    "pic":"dm",
     "url":"https://dungeon-manager.herokuapp.com",
     "key":"2",
     "technologies":"ReactJS",
@@ -9,8 +9,8 @@
   },
   {
     "title":"Cornucopia",
-    "pic":"https://mockuphone.com/upload/e4c22a28620d9fcf52be26a3f17b4714/macbookpro15/macbookpro15_front.png",
-    "mobilePic":"https://mockuphone.com/upload/356d92e6fea6e094aa5ca27398c80341/iphone5b/iphone_black_portrait.png" ,
+    "pic":"c",
+    "mobilePic":"cm" ,
     "url":"https://cornucopia-fe.herokuapp.com/",
     "key":"1",
     "technologies":"Angular JS",
@@ -18,8 +18,8 @@
   },
   {
     "title":"Running Man",
-    "pic":"https://mockuphone.com/upload/56a8562c45ee0fecf680dc94101b83aa/macbookpro15/macbookpro15_front.png",
-    "mobilePic":"https://mockuphone.com/upload/146b38eb6d1c94bdb49e91dca4798d28/iphone5b/iphone_black_portrait.png" ,
+    "pic":"rm",
+    "mobilePic":"rmm" ,
     "url":"https://munning-ran.herokuapp.com/",
     "key":"3",
     "technologies":"Google Maps API Jquery",

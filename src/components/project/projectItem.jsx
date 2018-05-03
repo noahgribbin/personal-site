@@ -7,7 +7,6 @@ import ProjectImage from './projectImage.jsx';
 export default class projectItem extends React.Component {
   constructor(props){
     super(props)
-    console.log(this.props);
     this.state = {
 
     }
@@ -16,7 +15,7 @@ export default class projectItem extends React.Component {
   render(){
     return(
       <section className="project-item">
-        <div className="project-item-center-container">            
+        <div className="project-item-center-container">
           <ProjectImage
             project={this.props.project}/>
           <ProjectContent

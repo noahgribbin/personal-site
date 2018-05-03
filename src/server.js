@@ -7,12 +7,11 @@ const nodeMailer = require('nodemailer');
 const bodyParser = require('body-parser').json();
 var PORT = 4000;
 require('dotenv').config({path: `${__dirname}/.env`});
-
+module.exports = {};
 app.use(bodyParser)
 app.use(cors())
 
 app.get('/', function(req, res) {
-  console.log('hey');
 })
 
 app.post('/send-email', function(req, res) {

@@ -24,15 +24,13 @@ export default class contactContent extends React.Component {
     var name = e.target.name
     this.setState({
       [name]: val
-    })
-    console.log(this.state);
+    });
   }
 
   sendEmail(e){
     e.preventDefault()
     // rudamentary form check
     if(this.state === initialState) {
-      console.log('no data');
       return
     }
     request.post('https://noahagribbin.herokuapp:4000/send-email')
@@ -52,7 +50,6 @@ export default class contactContent extends React.Component {
           <p>CURRENTLY AVAILABLE FOR CONTRACT OR FULL-TIME WORK,
             AND WOULD LOVE TO HEAR FROM YOU</p>
         </div>
-        {/* <form className="contact-form" action="http://localhost:4000/send-email" method="post"> */}
         <form id="email-form" className="contact-form" onSubmit={this.sendEmail}>
           <input className="contact-input" placeholder="Your name" name="name" onChange={this.getData}></input>
           <input className="contact-input" placeholder="Your email" name="email" onChange={this.getData}></input>

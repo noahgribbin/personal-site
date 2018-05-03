@@ -6,7 +6,6 @@ import $ from 'jquery';
 export default class Navbar extends React.Component {
   constructor(props){
     super(props)
-    console.log(this.props);
     this.scrollToSection = this.scrollToSection.bind(this)
     this.showHideNav = this.showHideNav.bind(this)
     this.state = {
@@ -23,8 +22,6 @@ export default class Navbar extends React.Component {
 
   scrollToSection(e){
     var val = "#"+e.target.getAttribute("name")
-    console.log(val);
-    console.log(typeof(val));
     $('html, body').animate({
       scrollTop: ($(val).offset().top)
     },700);
