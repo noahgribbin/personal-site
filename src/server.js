@@ -12,6 +12,7 @@ app.use(bodyParser)
 app.use(cors())
 
 app.get('/', function(req, res) {
+   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 })
 
 app.post('/send-email', function(req, res) {
