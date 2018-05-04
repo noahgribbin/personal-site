@@ -1,10 +1,12 @@
 {
-  "main.js": "static/js/main.b51cdc99.js",
-  "main.js.map": "static/js/main.b51cdc99.js.map",
+  "main.css": "sass.bundle.css",
+  "main.css.map": "sass.bundle.css.map",
+  "main.js": "static/js/main.32c6f530.js",
+  "main.js.map": "static/js/main.32c6f530.js.map",
   "static/media/cornucopia-iphone.png": "static/media/cornucopia-iphone.6808b7a3.png",
   "static/media/cornucopia-laptop.png": "static/media/cornucopia-laptop.e5245edc.png",
   "static/media/dungeon-manager-laptop.png": "static/media/dungeon-manager-laptop.64505a6e.png",
-  "static/media/main.scss": "static/media/main.7ef347be.scss",
+  "static/media/hero.jpg": "static/media/hero.cb6fb050.jpg",
   "static/media/running-man-iphone.png": "static/media/running-man-iphone.5d419aa5.png",
   "static/media/running-man-laptop.png": "static/media/running-man-laptop.e452d224.png"
 }
