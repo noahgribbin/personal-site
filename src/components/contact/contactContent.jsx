@@ -46,15 +46,14 @@ export default class contactContent extends React.Component {
     return(
       <section className="contact-content">
         <div>
-          <h1>CONTACT</h1>
           <p>CURRENTLY AVAILABLE FOR CONTRACT OR FULL-TIME WORK,
             AND WOULD LOVE TO HEAR FROM YOU</p>
         </div>
         <form id="email-form" className="contact-form" onSubmit={this.sendEmail}>
-          <input className="contact-input" placeholder="Your name" name="name" onChange={this.getData}></input>
-          <input className="contact-input" placeholder="Your email" name="email" onChange={this.getData}></input>
+          <input className="contact-input" placeholder="Name" name="name" onChange={this.getData}></input>
+          <input className="contact-input" placeholder="Email" name="email" onChange={this.getData}></input>
           <input className="contact-input" placeholder="Subject" name="subject" onChange={this.getData}></input>
-          <textarea className="contact-input contact-textarea" placeholder="Your message" name="body" onChange={this.getData}></textarea>
+          <textarea className="contact-input contact-textarea" placeholder="Message" name="body" onChange={this.getData}></textarea>
           <button  type="submit">SUBMIT</button>
         </form>
       </section>

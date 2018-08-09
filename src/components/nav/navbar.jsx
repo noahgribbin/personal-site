@@ -31,12 +31,16 @@ export default class Navbar extends React.Component {
     $(window).bind('mousewheel', function(event) {
       if (event.originalEvent.wheelDelta >= 0) {
           // up
-          $('nav.navbar').removeClass('hide')
-          $('nav.navbar').addClass('show')
+          if(!$('nav.navbar').hasClass('show')){          
+            $('nav.navbar').removeClass('hide')
+            $('nav.navbar').addClass('show')
+          }
       }else {
           //down
-          $('nav.navbar').removeClass('show')
-          $('nav.navbar').addClass('hide')
+          if(!$('nav.navbar').hasClass('hide')){
+            $('nav.navbar').removeClass('show')
+            $('nav.navbar').addClass('hide')
+          }
       }
     });
   }

@@ -1,5 +1,13 @@
 [
   {
+    "title":"Sushi Tokyo",
+    "pic":"st",
+    "url":"https://sushi-tokyo.herokuapp.com",
+    "key":"4",
+    "technologies":"ReactJS",
+    "body":"A modern website for my local sushi restaurant"
+  },
+  {
     "title":"Dungeon Manager",
     "pic":"dm",
     "url":"https://dungeon-manager.herokuapp.com",

@@ -11,13 +11,15 @@
 }
 
 .show{
-  transition: 400ms;
-  display: block;
-  // opacity: 1;
+  transition: 300ms;
+  // display: block;
+  visibility: visible;
+  opacity: 1;
 }
 .hide{
-  transition: 400ms;
-  display: none;
+  // transition: 400ms;
+  visibility: hidden;
+  opacity: 0;
   // opacity: 0;
 }
 
